@@ -80,7 +80,7 @@ install_snell() {
     chmod +x ${INSTALL_DIR}/snell-server
 
     # 生成随机端口和密码
-    RANDOM_PORT=36518
+    RANDOM_PORT=36818
     RANDOM_PSK=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 20)
 
     # 创建配置文件目录
