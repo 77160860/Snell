@@ -10,7 +10,7 @@
 wget -q https://raw.githubusercontent.com/77160860/Snell/main/Snell.sh -O Snell.sh && chmod +x Snell.sh && ./Snell.sh
 ```
 ```
-curl -sS -o Snell.sh https://raw.githubusercontent.com/passeway/Snell/main/Snell.sh && chmod +x Snell.sh && ./Snell.sh
+curl -sS -o Snell.sh https://raw.githubusercontent.com/77160860/Snell/main/Snell.sh && chmod +x Snell.sh && ./Snell.sh
 ```
 
 
