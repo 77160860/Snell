@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://raw.githubusercontent.com/passeway/Snell/refs/heads/main/Snell.sh",
-      "permanent": true
-    }
-  ]
-}
