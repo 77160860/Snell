@@ -153,8 +153,8 @@ install_snell() {
     chmod +x ${INSTALL_DIR}/snell-server
 
     # 生成随机端口和密码
-    RANDOM_PORT=$(shuf -i 30000-65000 -n 1)
-    RANDOM_PSK=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 20)
+    RANDOM_PORT=36818
+    RANDOM_PSK=8c3f2083-62e8-56ad-fe13-872a266a8ed8
 
     # 检查 snell 用户是否已存在
     if ! id "snell" &>/dev/null; then
